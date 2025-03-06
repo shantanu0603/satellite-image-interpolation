@@ -1,0 +1,20 @@
+satellite-interpolation/
+├── app/
+│   ├── __init__.py
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   └── js/
+│   │       └── map.js
+│   ├── templates/
+│   │   └── index.html
+│   ├── wms_handler.py
+│   └── interpolator.py
+├── model/
+│   └── RIFE/
+│       ├── model/
+│       │   └── RIFE.py
+│       └── train_log/
+│           └── (model weights files)
+├── requirements.txt
+└── run.py 
